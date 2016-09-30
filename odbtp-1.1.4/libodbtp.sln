@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "libodbtp", "libodbtp.vcxproj", "{CC9BC956-EECE-4BC8-BAB3-F054F9FBC5EA}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "odbtpcli", "odbtpcli.vcxproj", "{09A8776F-619C-48F9-8290-00328810901F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC9BC956-EECE-4BC8-BAB3-F054F9FBC5EA} = {CC9BC956-EECE-4BC8-BAB3-F054F9FBC5EA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
